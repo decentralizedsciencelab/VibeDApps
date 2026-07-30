@@ -1,0 +1,32 @@
+{
+  "spec": {
+    "projectName": "MyToken",
+    "projectDescription": "An ERC20 token with minting and burning support",
+    "contractType": "erc20",
+    "contractFeatures": {
+      "mintable": true,
+      "burnable": true
+    },
+    "backendType": "express",
+    "backendLanguage": "javascript",
+    "frontendFramework": "react",
+    "uiComponents": {
+      "darkMode": true,
+      "wallets": [
+        "MetaMask"
+      ]
+    },
+    "securityChecks": {
+      "enabled": true
+    },
+    "deploymentOptions": {
+      "network": "ethereum-sepolia"
+    },
+    "generationStrategy": null,
+    "preferredTools": null
+  },
+  "project_id": "918321db-f9c5-4892-af5d-1877558a5347",
+  "generation_strategy": "llm_only",
+  "tools_used": [],
+  "created_at": "2026-07-28T22:15:26.531540"
+}

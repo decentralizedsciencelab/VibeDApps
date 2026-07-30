@@ -1,0 +1,19 @@
+{
+  "name": "mytoken",
+  "version": "1.0.0",
+  "description": "An ERC20 token with minting and burning support",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "concurrently": "^8.0.0",
+    "hardhat": "^2.29.0"
+  }
+}
