@@ -1,0 +1,7 @@
+Django==4.2.5
+djangorestframework==3.14.0
+web3==6.10.0
+python-dotenv==1.0.0
+drf-yasg==1.21.7
+django-cors-headers==4.2.0
+gunicorn==21.2.0

@@ -1,0 +1,18 @@
+{
+  "name": "__DAPP_TPL_PN_S3NT1NEL__",
+  "version": "1.0.0",
+  "description": "Hardhat DApp project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "console": "hardhat console"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.18.0"
+  }
+}
